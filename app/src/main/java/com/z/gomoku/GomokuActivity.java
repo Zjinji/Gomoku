@@ -49,7 +49,7 @@ public class GomokuActivity extends AppCompatActivity implements AdapterView.OnI
     private boolean isRepeat = false;
     //是否复盘结束
     private boolean isRepeatEnd = true;
-    //是否开启人工智能
+    //是否开启人工智能 true为开启
     private boolean isAIOpen = true;
 
     private int[][] chessBoard = null;
